@@ -1,0 +1,38 @@
+{
+  "profiles": [
+    {
+      "userId": "anonymous",
+      "displayName": "Citizen MOUS",
+      "locality": "Pimpri, Pune",
+      "totalPoints": 160,
+      "resolvedReports": 1,
+      "validReports": 1,
+      "rank": 1,
+      "badges": [
+        "First Report",
+        "First Resolved Cleanup"
+      ],
+      "lastPointsAwardedAt": "2026-09-30T16:17:03.188Z"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "RWD-verified-CLS-T1MY-9385-1790785023032",
+      "userId": "anonymous",
+      "reportId": "CLS-T1MY-9385",
+      "points": 10,
+      "reason": "Verified civic contribution",
+      "createdAt": "2026-09-30T16:17:03.032Z",
+      "type": "verified_contribution"
+    },
+    {
+      "transactionId": "RWD-resolution-CLS-T1MY-9385-1790785023188",
+      "userId": "anonymous",
+      "reportId": "CLS-T1MY-9385",
+      "points": 150,
+      "reason": "First valid report at a new hotspot: 50; Cleanup successfully resolved: 100",
+      "createdAt": "2026-09-30T16:17:03.188Z",
+      "type": "resolution_impact"
+    }
+  ]
+}

@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "CLS-T1MY-9385",
+    "createdAt": "2026-09-30T16:17:03.020Z",
+    "updatedAt": "2026-09-30T16:17:05.022Z",
+    "userId": "anonymous",
+    "status": "Resolved",
+    "lat": 18.6298,
+    "lng": 73.7997,
+    "areaText": "Pimpri, Pune, India",
+    "media": [
+      {
+        "mediaId": "MED-VNPD0X",
+        "type": "photo",
+        "storagePath": "reports/CLS-T1MY-9385/MED-VNPD0X/original.jpg",
+        "thumbnailPath": "reports/CLS-T1MY-9385/MED-VNPD0X/thumbnail.jpg",
+        "publicUrl": "/media/reports/CLS-T1MY-9385/MED-VNPD0X/original.jpg",
+        "displayUrl": "/media/reports/CLS-T1MY-9385/MED-VNPD0X/original.jpg",
+        "storageProvider": "local_dev",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3503632,
+        "sha256Hash": "18552a00a9846eacc7f94c00b1ae376441f839719096996333d6805a77500769",
+        "uploadedAt": "2026-09-30T16:16:59.410Z",
+        "capturedAt": "2026-09-30T16:16:44.265Z",
+        "width": 1200,
+        "height": 900,
+        "exifAvailable": false,
+        "captureEvidence": {
+          "captureMethod": "live_camera",
+          "cameraFacingMode": "environment",
+          "photoCapturedAt": "2026-09-30T16:16:44.265Z",
+          "captureLocation": {
+            "lat": 18.6298,
+            "lng": 73.7997,
+            "accuracyMeters": 10,
+            "capturedAt": "2026-09-30T16:16:44.265Z"
+          },
+          "gpsAgeAtShutterSeconds": 0
+        },
+        "metadataWarnings": []
+      }
+    ],
+    "primaryMediaId": "MED-VNPD0X",
+    "evidenceStatus": "verified",
+    "authenticityScore": 79,
+    "authenticityFlags": [
+      "low_visual_evidence",
+      "location_needs_review"
+    ],
+    "evidenceScore": 39,
+    "trustLevel": "Needs Review",
+    "scoreBreakdown": {
+      "visualEvidenceScore": 1,
+      "authenticityScore": 79,
+      "nearbyCorroborationScore": 0,
+      "locationConfidenceScore": 88,
+      "recencyScore": 96
+    },
+    "evidenceReasons": [
+      "Visual evidence 1/100",
+      "Authenticity 79/100",
+      "No nearby corroborating reports yet",
+      "Location coordinates available",
+      "Image quality: clear",
+      "Visible pollution evidence detected.",
+      "low visual evidence",
+      "location needs review"
+    ],
+    "actionLog": [
+      {
+        "type": "report_created",
+        "at": "2026-09-30T16:17:03.020Z"
+      },
+      {
+        "type": "media_uploaded",
+        "at": "2026-09-30T16:17:03.020Z"
+      },
+      {
+        "type": "gemini_verified",
+        "at": "2026-09-30T16:17:03.020Z"
+      },
+      {
+        "type": "evidence_scored",
+        "at": "2026-09-30T16:17:03.020Z"
+      },
+      {
+        "type": "assigned",
+        "at": "2026-09-30T16:17:03.073Z",
+        "note": "Assigned · Sanitation · Municipal Team · Dispatching team to clear roadside waste."
+      },
+      {
+        "type": "ngo_progress_updated",
+        "at": "2026-09-30T16:17:03.086Z",
+        "note": "Cleanup In Progress"
+      },
+      {
+        "type": "ngo_cleanup_proof_submitted",
+        "at": "2026-09-30T16:17:03.173Z",
+        "note": "Waste collected and area thoroughly cleaned"
+      },
+      {
+        "type": "resolved",
+        "at": "2026-09-30T16:17:03.184Z",
+        "note": "Officer approved municipal cleanup proof"
+      }
+    ],
+    "imageUrl": "/media/reports/CLS-T1MY-9385/MED-VNPD0X/original.jpg",
+    "imageHash": "18552a00a9846eacc7f94c00b1ae376441f839719096996333d6805a77500769",
+    "userDescription": "Garbage pile spilling onto road near PCMC Pune",
+    "gemini": {
+      "is_pollution_related": true,
+      "pollution_visible": true,
+      "image_quality": "clear",
+      "image_quality_score": 0.92,
+      "pollution_type": "open_waste",
+      "confidence": 0.95,
+      "severity": "medium",
+      "evidence_strength": 0.9,
+      "visible_evidence": [
+        "accumulated plastic waste along wall",
+        "garbage spilling onto road shoulder",
+        "uncollected solid waste and organic litter"
+      ],
+      "possible_pollutants": [
+        "plastic waste",
+        "decomposing organic waste",
+        "litter"
+      ],
+      "public_summary": "Uncollected garbage and plastic waste accumulated along the wall and edge of the road.",
+      "municipal_action": "Schedule municipal sanitation staff for waste collection and street sweeping.",
+      "needs_manual_review": false,
+      "trust_decision": "verified",
+      "safety_note": "Avoid contact with uncollected refuse to reduce exposure to biological hazards.",
+      "second_pass_used": false
+    },
+    "airQuality": {
+      "provider": "open_meteo",
+      "status": "available",
+      "aqi": 140,
+      "category": "Moderate",
+      "dominantPollutant": "PM2.5",
+      "pollutants": {
+        "PM2.5": {
+          "pollutant": "PM2.5",
+          "value": 72.4,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "PM10": {
+          "pollutant": "PM10",
+          "value": 77.5,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "CO": {
+          "pollutant": "CO",
+          "value": 0.95,
+          "unit": "mg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "NO2": {
+          "pollutant": "NO2",
+          "value": 35.6,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "SO2": {
+          "pollutant": "SO2",
+          "value": 15.9,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "OZONE": {
+          "pollutant": "OZONE",
+          "value": 50,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        }
+      },
+      "readings": {
+        "PM2.5": {
+          "pollutant": "PM2.5",
+          "value": 72.4,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "PM10": {
+          "pollutant": "PM10",
+          "value": 77.5,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "CO": {
+          "pollutant": "CO",
+          "value": 0.95,
+          "unit": "mg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "NO2": {
+          "pollutant": "NO2",
+          "value": 35.6,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "SO2": {
+          "pollutant": "SO2",
+          "value": 15.9,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        },
+        "OZONE": {
+          "pollutant": "OZONE",
+          "value": 50,
+          "unit": "µg/m³",
+          "provider": "open_meteo",
+          "station": "Open-Meteo area model",
+          "stationId": "open-meteo-area-model",
+          "measuredAt": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "valueKind": "instantaneous",
+          "aggregationPeriod": "hourly",
+          "aggregationPeriodVerified": false,
+          "unitCompatible": true,
+          "usableForCurrentFusion": true,
+          "usableForAqi": false,
+          "status": "available",
+          "warnings": [
+            "modelled_hourly_reading"
+          ]
+        }
+      },
+      "nearestStation": "Open-Meteo area model",
+      "lastUpdate": "2026-09-30T16:00:00.000Z",
+      "station": {
+        "id": "open-meteo:18.63:73.80",
+        "name": "Open-Meteo area model",
+        "provider": "open_meteo",
+        "lat": 18.6298,
+        "lng": 73.7997,
+        "lastUpdate": "2026-09-30T16:00:00.000Z",
+        "freshness": "usable",
+        "pollutants": {
+          "PM2.5": {
+            "pollutant": "PM2.5",
+            "value": 72.4,
+            "unit": "µg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          },
+          "PM10": {
+            "pollutant": "PM10",
+            "value": 77.5,
+            "unit": "µg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          },
+          "CO": {
+            "pollutant": "CO",
+            "value": 0.95,
+            "unit": "mg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          },
+          "NO2": {
+            "pollutant": "NO2",
+            "value": 35.6,
+            "unit": "µg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          },
+          "SO2": {
+            "pollutant": "SO2",
+            "value": 15.9,
+            "unit": "µg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          },
+          "OZONE": {
+            "pollutant": "OZONE",
+            "value": 50,
+            "unit": "µg/m³",
+            "provider": "open_meteo",
+            "station": "Open-Meteo area model",
+            "stationId": "open-meteo-area-model",
+            "measuredAt": "2026-09-30T16:00:00.000Z",
+            "freshness": "usable",
+            "valueKind": "instantaneous",
+            "aggregationPeriod": "hourly",
+            "aggregationPeriodVerified": false,
+            "unitCompatible": true,
+            "usableForCurrentFusion": true,
+            "usableForAqi": false,
+            "status": "available",
+            "warnings": [
+              "modelled_hourly_reading"
+            ]
+          }
+        },
+        "attribution": "Open-Meteo",
+        "license": "CC BY 4.0"
+      },
+      "nearbyStations": [
+        {
+          "id": "open-meteo:18.63:73.80",
+          "name": "Open-Meteo area model",
+          "provider": "open_meteo",
+          "lat": 18.6298,
+          "lng": 73.7997,
+          "lastUpdate": "2026-09-30T16:00:00.000Z",
+          "freshness": "usable",
+          "pollutants": {
+            "PM2.5": {
+              "pollutant": "PM2.5",
+              "value": 72.4,
+              "unit": "µg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            },
+            "PM10": {
+              "pollutant": "PM10",
+              "value": 77.5,
+              "unit": "µg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            },
+            "CO": {
+              "pollutant": "CO",
+              "value": 0.95,
+              "unit": "mg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            },
+            "NO2": {
+              "pollutant": "NO2",
+              "value": 35.6,
+              "unit": "µg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            },
+            "SO2": {
+              "pollutant": "SO2",
+              "value": 15.9,
+              "unit": "µg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            },
+            "OZONE": {
+              "pollutant": "OZONE",
+              "value": 50,
+              "unit": "µg/m³",
+              "provider": "open_meteo",
+              "station": "Open-Meteo area model",
+              "stationId": "open-meteo-area-model",
+              "measuredAt": "2026-09-30T16:00:00.000Z",
+              "freshness": "usable",
+              "valueKind": "instantaneous",
+              "aggregationPeriod": "hourly",
+              "aggregationPeriodVerified": false,
+              "unitCompatible": true,
+              "usableForCurrentFusion": true,
+              "usableForAqi": false,
+              "status": "available",
+              "warnings": [
+                "modelled_hourly_reading"
+              ]
+            }
+          },
+          "attribution": "Open-Meteo",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "confidence": "low",
+      "warnings": [
+        {
+          "code": "provider_error",
+          "provider": "open_meteo",
+          "message": "Showing an indicative Open-Meteo area estimate because no nearby official monitoring-station reading is available."
+        }
+      ],
+      "calculationType": "reported_average_estimate",
+      "aqiQuality": "indicative",
+      "isOfficial": false,
+      "calculationTrace": {
+        "source": "Open-Meteo",
+        "readingType": "modelled_hourly"
+      },
+      "rawSummary": "Indicative AQI 140; estimated from Open-Meteo hourly area data.",
+      "sourceNote": "Open-Meteo provides modelled area data. This is not an official CPCB monitoring-station measurement or a street-level sensor reading."
+    },
+    "forecast": {
+      "provider": "unavailable",
+      "lat": 18.6298,
+      "lng": 73.7997,
+      "predictions": {},
+      "categories": {},
+      "hourly": [],
+      "trend": "unknown",
+      "spikeRisk": "unknown",
+      "spikeReason": "OpenAQ rejected the configured API key.",
+      "confidenceNote": "Prediction unavailable until enough recent hourly station history is available.",
+      "sourceNote": "The 24-hour result is an application-generated local statistical prediction, not an official CPCB or OpenAQ forecast.",
+      "generatedAt": "2026-09-30T16:16:59.969Z",
+      "reason": "OpenAQ rejected the configured API key.",
+      "confidence": "unavailable",
+      "warnings": [
+        {
+          "code": "insufficient_history",
+          "message": "OpenAQ rejected the configured API key."
+        }
+      ]
+    },
+    "cpcbContext": {
+      "provider": "cpcb_station_context",
+      "lat": 18.6298,
+      "lng": 73.7997,
+      "radiusKm": 25,
+      "generatedAt": "2026-09-30T16:17:02.194Z",
+      "pollutants": {
+        "PM2.5": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "PM10": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "NO2": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "SO2": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "CO": {
+          "unit": "mg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "OZONE": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "NH3": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        },
+        "PB": {
+          "unit": "µg/m³",
+          "nearbyStationCount": 0,
+          "confidence": "unavailable",
+          "freshnessSummary": "No fresh or usable station reading within 25 km."
+        }
+      },
+      "nearestStations": [],
+      "sourceNote": "Station-derived local pollutant context from CPCB/data.gov.in. This is not a street-level sensor reading."
+    },
+    "surroundingContext": {
+      "status": "unavailable",
+      "provider": "none",
+      "generatedAt": "2026-09-30T16:16:59.418Z",
+      "searchRadiusMeters": 900,
+      "sensitivePlaces": [],
+      "sensitivePlaceCount": 0,
+      "communityExposureScore": 0,
+      "reasons": [],
+      "warnings": [
+        "Sensitive-surroundings provider is unavailable."
+      ]
+    },
+    "captureEvidence": {
+      "captureMethod": "live_camera",
+      "cameraFacingMode": "environment",
+      "photoCapturedAt": "2026-09-30T16:16:44.265Z",
+      "captureLocation": {
+        "lat": 18.6298,
+        "lng": 73.7997,
+        "accuracyMeters": 10,
+        "capturedAt": "2026-09-30T16:16:44.265Z"
+      },
+      "gpsAgeAtShutterSeconds": 0
+    },
+    "nearby": {
+      "similarReportCount": 0,
+      "nearbyReportIds": [],
+      "independentNearbyReporterCount": 0,
+      "verifiedCorroborationCount": 0
+    },
+    "hotspotScore": 33,
+    "priority": "resolved",
+    "reportSource": "citizen",
+    "locality": {
+      "locality_id": "250m:8295:31140",
+      "locality_name": "Ajmera Road, Pimpri, Pune",
+      "nearby_150m_count": 0,
+      "nearby_250m_count": 0,
+      "nearby_500m_count": 0,
+      "relatedReportIds": [],
+      "relatedMedia": []
+    },
+    "statusHistory": [
+      {
+        "status": "submitted",
+        "label": "Report Submitted",
+        "timestamp": "2026-09-30T16:17:03.020Z",
+        "updatedByRole": "citizen",
+        "message": "Report received."
+      },
+      {
+        "status": "verified",
+        "label": "Evidence Verified",
+        "timestamp": "2026-09-30T16:17:03.024Z",
+        "updatedByRole": "system",
+        "message": "The submitted image and location evidence have been verified."
+      },
+      {
+        "status": "assigned",
+        "label": "Assigned to Municipal Team",
+        "timestamp": "2026-09-30T16:17:03.073Z",
+        "updatedByRole": "officer",
+        "message": "Dispatching team to clear roadside waste."
+      },
+      {
+        "status": "cleanup_in_progress",
+        "label": "Cleanup In Progress",
+        "timestamp": "2026-09-30T16:17:03.086Z",
+        "updatedByRole": "municipal",
+        "message": "Cleanup In Progress"
+      },
+      {
+        "status": "cleanup_proof_submitted",
+        "label": "Cleanup Proof Submitted",
+        "timestamp": "2026-09-30T16:17:03.173Z",
+        "updatedByRole": "municipal",
+        "message": "Waste collected and area thoroughly cleaned"
+      },
+      {
+        "status": "resolved",
+        "label": "Resolved",
+        "timestamp": "2026-09-30T16:17:03.184Z",
+        "updatedByRole": "officer"
+      }
+    ],
+    "riskAdvisor": {
+      "likelyCause": "open waste",
+      "causeConfidence": "low",
+      "healthConcerns": [
+        "Waste may attract pests and cause odor",
+        "Smoke risk increases if waste is burned"
+      ],
+      "citizenAdvice": [
+        "Avoid touching waste",
+        "Keep children away from dumping point"
+      ],
+      "municipalActions": [
+        "Clear waste",
+        "Identify repeat dumping source",
+        "Increase bin/collection availability"
+      ],
+      "reductionMeasures": [
+        "Add collection point",
+        "Add signage",
+        "Monitor repeat dumping time"
+      ],
+      "recurringHotspot": {
+        "isRecurring": false,
+        "reportCount7d": 1,
+        "radiusMeters": 250,
+        "dominantIssue": "open waste",
+        "recommendation": "Monitor for repeated reports before escalating as a recurring hotspot."
+      },
+      "priorityReasons": [
+        "Evidence score 39/100",
+        "Hotspot score 33/100",
+        "AQI context 140",
+        "Sensitive-surroundings context unavailable"
+      ],
+      "disclaimer": "General public guidance only, not medical advice."
+    },
+    "rewards": {
+      "verifiedContribution": {
+        "points": 10,
+        "transactionId": "RWD-verified-CLS-T1MY-9385-1790785023032",
+        "awardedAt": "2026-09-30T16:17:03.032Z"
+      },
+      "resolutionImpact": {
+        "points": 150,
+        "transactionId": "RWD-resolution-CLS-T1MY-9385-1790785023188",
+        "awardedAt": "2026-09-30T16:17:03.188Z"
+      }
+    },
+    "satelliteEvidence": {
+      "provider": "earth_engine",
+      "status": "ready",
+      "reportLocation": {
+        "lat": 18.6298,
+        "lng": 73.7997,
+        "source": "frozen_capture_gps",
+        "aoiRadiusMeters": 1000
+      },
+      "eventTime": {
+        "photoCapturedAt": "2026-09-30T16:16:44.265Z",
+        "source": "photo_capture_time"
+      },
+      "eventSuitability": {
+        "level": "partially_suitable",
+        "reason": "Only large, persistent dumping or waste areas are likely to be visible at Sentinel-2 resolution."
+      },
+      "observability": {
+        "status": "partially_observable",
+        "score": 50,
+        "reasons": [
+          "Google Earth Engine returned local Sentinel-5P atmospheric context."
+        ]
+      },
+      "assessment": {
+        "result": "inconclusive",
+        "confidence": 0,
+        "source": "deterministic",
+        "observability": "partially_observable",
+        "eventSuitability": "partially_suitable",
+        "citizenPhotoSignals": [],
+        "satelliteSignals": [
+          "Earth Engine returned a local Sentinel-5P NO₂ mean of 0.00e+0 mol/m²."
+        ],
+        "surfaceChangeSignals": [],
+        "contradictorySignals": [],
+        "temporalConsistency": "weak",
+        "spatialContext": "unclear",
+        "explanation": "Google Earth Engine returned local Sentinel-5P atmospheric context.",
+        "limitations": [
+          "Earth Engine satellite context is regional atmospheric context, not proof of the citizen incident.",
+          "Sentinel-5P resolution and overpass timing cannot verify a small street-level event.",
+          "The citizen photo remains the primary evidence."
+        ]
+      },
+      "evidenceContributionPoints": 0,
+      "decisionEffect": "none",
+      "attribution": "Contains modified Copernicus Sentinel-5P data processed with Google Earth Engine.",
+      "warnings": [
+        "Satellite context is supporting environmental context only; it does not change evidence trust."
+      ],
+      "checkedAt": "2026-09-30T16:17:05.016Z",
+      "scenes": {},
+      "products": {},
+      "metrics": [
+        {
+          "name": "aerosol_optical_thickness",
+          "value": 0,
+          "unit": "mol/m²",
+          "interpretation": "Sentinel-5P tropospheric NO₂ mean over the bounded local area."
+        }
+      ],
+      "explanation": "Google Earth Engine returned local Sentinel-5P atmospheric context.",
+      "limitations": [
+        "Earth Engine satellite context is regional atmospheric context, not proof of the citizen incident.",
+        "Sentinel-5P resolution and overpass timing cannot verify a small street-level event.",
+        "The citizen photo remains the primary evidence."
+      ],
+      "completedAt": "2026-09-30T16:17:05.016Z"
+    },
+    "assignedTo": "Municipal Team",
+    "assignedDepartment": "Sanitation",
+    "ngoAssignment": {
+      "ngoName": "Demo Municipal Team",
+      "assignedAt": "2026-09-30T16:17:03.086Z",
+      "status": "Cleanup Proof Submitted"
+    },
+    "cleanupProof": {
+      "afterMedia": {
+        "mediaId": "RES-AFTER",
+        "type": "photo",
+        "storagePath": "reports/CLS-T1MY-9385/resolution/after.jpg",
+        "publicUrl": "/media/reports/CLS-T1MY-9385/resolution/after.jpg",
+        "displayUrl": "/media/reports/CLS-T1MY-9385/resolution/after.jpg",
+        "storageProvider": "local_dev",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3316584,
+        "sha256Hash": "db09420550dc73e02064eecc1a3eea842d6a79cd1fe000fa17253ef9cd7c69c5",
+        "uploadedAt": "2026-09-30T16:17:03.173Z",
+        "exifAvailable": false,
+        "metadataWarnings": [
+          "no_exif_metadata"
+        ]
+      },
+      "submittedAt": "2026-09-30T16:17:03.173Z",
+      "uploaderId": "Demo Municipal Team",
+      "locality": "Pimpri, Pune, India",
+      "lat": 18.6298,
+      "lng": 73.7997,
+      "gpsAccuracy": 10,
+      "actionTaken": "Waste collected and area thoroughly cleaned",
+      "note": "Cleanup complete.",
+      "cleanupPercentage": 0,
+      "locationMatch": true,
+      "aiConfidence": 0,
+      "remainingPollution": "Officer review required",
+      "summary": "Cleanup proof received; officer approval is pending."
+    },
+    "resolvedAt": "2026-09-30T16:17:03.184Z",
+    "resolutionProof": {
+      "beforeMediaId": "MED-VNPD0X",
+      "afterMedia": {
+        "mediaId": "RES-AFTER",
+        "type": "photo",
+        "storagePath": "reports/CLS-T1MY-9385/resolution/after.jpg",
+        "publicUrl": "/media/reports/CLS-T1MY-9385/resolution/after.jpg",
+        "displayUrl": "/media/reports/CLS-T1MY-9385/resolution/after.jpg",
+        "storageProvider": "local_dev",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 3316584,
+        "sha256Hash": "db09420550dc73e02064eecc1a3eea842d6a79cd1fe000fa17253ef9cd7c69c5",
+        "uploadedAt": "2026-09-30T16:17:03.173Z",
+        "exifAvailable": false,
+        "metadataWarnings": [
+          "no_exif_metadata"
+        ]
+      },
+      "actionTaken": "Waste collected and area thoroughly cleaned",
+      "resolvedBy": "Officer-001",
+      "resolvedAt": "2026-09-30T16:17:03.184Z",
+      "notes": "Cleanup complete."
+    },
+    "reward": {
+      "points": 150,
+      "transactionId": "RWD-resolution-CLS-T1MY-9385-1790785023188",
+      "reason": "First valid report at a new hotspot: 50; Cleanup successfully resolved: 100",
+      "awardedAt": "2026-09-30T16:17:03.188Z"
+    }
+  }
+]

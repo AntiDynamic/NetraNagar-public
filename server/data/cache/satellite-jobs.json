@@ -1,0 +1,13 @@
+[
+  {
+    "jobId": "a60a1a15-56bf-4edb-9854-b257c2d9bbe4",
+    "reportId": "CLS-T1MY-9385",
+    "reportRevision": "2026-09-30T16:17:03.034Z",
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "nextAttemptAt": "2026-09-30T16:17:03.042Z",
+    "createdAt": "2026-09-30T16:17:03.042Z",
+    "updatedAt": "2026-09-30T16:17:05.028Z"
+  }
+]
